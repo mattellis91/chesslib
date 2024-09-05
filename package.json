@@ -1,0 +1,19 @@
+{
+  "name": "chesslib",
+  "version": "0.0.0",
+  "description": "chess board library in vanilla js",
+  "main": "dist/chesslib.min.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --open --host 0.0.0.0",
+    "build": "webpack --mode=production && gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  }
+}
